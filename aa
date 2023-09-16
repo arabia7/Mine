@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Multiplication Game</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <form class="form" id="form">
+        <h4 class="score" id="score"> score: 0</h4>
+        <h1 class="question" id="question">What is 1 multiply by 5 ?</h1>
+        <input type="text" class="input" id="input" placeholder="Enter your Answer" autofocus>
+        <button type="submit" class="btn" id="btn">Submit</button>
+      </form>
+        <script src="index.js"></script>
+    </body>
+</html>
